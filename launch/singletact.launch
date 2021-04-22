@@ -1,0 +1,11 @@
+<launch>
+
+
+    <arg name="port_name" default="" />
+
+    <node type="singletact.py" pkg="singletact" name="singletact" output="screen">
+    <param name="port" type="string" value="$(arg port_name)" />
+    </node>
+
+
+</launch>

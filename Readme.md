@@ -16,4 +16,4 @@ assuming arduino is connected to /dev/ttyACM0, if you launch without a port_name
 
 ## ToDo
  * This publishes a single float value with no context, the message should have a sensor name, timestamp
- * This is tested for one sensor, for multiple sensor, the same node can be launched bu it may be easier to modify the file to vectorize everything
+ * This is tested for one sensor, for multiple sensor, the same node can be launched but it may be easier to modify the file to vectorize everything

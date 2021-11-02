@@ -12,7 +12,7 @@ Plug the USB sensor in and run
 ```
 roslaunch singletact singletact.launch 'port_name':=/dev/ttyACM0
 ```
-assuming arduino is connected to /dev/ttyACM0, if you launch without a port_name parameter, all serial ports will be checked for an arduino connection. 
+Assuming arduino is connected to /dev/ttyACM0, if you launch without a port_name parameter, all serial ports will be checked for an arduino connection. 
 
 ## ToDo
  * This publishes a single float value with no context, the message should have a sensor name, timestamp

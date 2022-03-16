@@ -1,5 +1,5 @@
 # Singletact
-This is a pythonized version of the .Net code provided by  [Singletact](https://github.com/SingleTact/NETInterface/blob/master/SingleTactLibrary/ArduinoSingleTactDriver.cs) to work with the arduino singletact on linux. This package works with the Single [USB version](https://www.singletact.com/wp-content/uploads/SingleTact_USB_QuickStartGuideV1.7.pdf). The package opens a serial port initiates the sensor and publishes a single float. 
+This is a pythonized version of the .Net code provided by  [Singletact](https://github.com/SingleTact/NETInterface/blob/master/SingleTactLibrary/ArduinoSingleTactDriver.cs) to work with the arduino singletact on linux. This package works with the Single [USB version](https://www.singletact.com/wp-content/uploads/SingleTact_USB_QuickStartGuideV1.7.pdf). The package opens a serial port initiates the sensor and publishes a single float. This enables the utilization of the single tact with ROS based on the USB version of the snesor without using a bare wires via an Arduino.
 
 ## Installation
 Relies on pyserial
